@@ -4,7 +4,7 @@ import os
 
 class OpenAIAPI:
     def __init__(self):
-        openai.api_key = os.getenv("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")
+        openai.api_key = os.getenv("")
         self.MODEL_NAME = "gpt-3.5-turbo"
         self.MAX_TOKENS = 2000
 
